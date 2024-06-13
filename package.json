@@ -1,0 +1,72 @@
+{
+    "name": "stake",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "node craftsman serve --dev",
+        "serve": "node craftsman serve",
+        "start": "internals start",
+        "build": "internals build",
+        "test": "jest --roots test",
+        "test:watch": "jest --roots test --watchAll",
+        "mix:dev": "mix",
+        "mix:prod": "mix --production",
+        "mix:watch": "mix watch"
+    },
+    "dependencies": {
+        "@bugsnag/js": "7.20.0",
+        "@formidablejs/bugsnag-plugin": "0.0.5",
+        "@formidablejs/framework": "^0.27.0",
+        "@formidablejs/inertia": "^0.3.5",
+        "@formidablejs/logger": "0.1.1",
+        "@formidablejs/mailer": "0.4.2",
+        "@formidablejs/pretty-errors": "^0.2.1",
+        "@formidablejs/queues": "^0.0.7",
+        "@formidablejs/scheduler": "0.2.2",
+        "@formidablejs/stubs": "0.5.2",
+        "@formidablejs/ts-ports": "0.4.4",
+        "@formidablejs/view": "^0.12.3",
+        "css-loader": "^7.1.2",
+        "file-loader": "^6.2.0",
+        "imba": "2.0.0-alpha.235",
+        "imba-shell": "0.4.0",
+        "mysql2": "^3.10.0",
+        "style-loader": "^4.0.0",
+        "supertest": "6.3.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.7",
+        "@babel/preset-react": "^7.24.7",
+        "@babel/preset-typescript": "^7.24.7",
+        "@faker-js/faker": "^8.3.1",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-react": "^0.8.1",
+        "@inertiajs/progress": "^0.2.7",
+        "@types/jest": "^29.5.11",
+        "@types/lodash": "^4.14.202",
+        "@types/node": "^18.11.17",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "axios": "^1.2.2",
+        "babel-loader": "^9.1.3",
+        "jest": "^29.7.0",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.21",
+        "postcss": "^8.4.20",
+        "postcss-import": "^15.1.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "ts-jest": "^29.1.1",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.5"
+    },
+    "language": "TypeScript",
+    "development": {
+        "commands": [
+            "node craftsman types:generate"
+        ]
+    }
+}
